@@ -73,20 +73,44 @@
 		7333E0292418165E00F6FB0C /* RealmProject */ = {
 			isa = PBXGroup;
 			children = (
+				736D0361246416AA0088A820 /* Controller */,
+				736D0360246416A40088A820 /* View */,
+				736D035F246416990088A820 /* Model */,
 				7333E02A2418165E00F6FB0C /* AppDelegate.swift */,
-				735C1E3924190F6500E6A9CA /* AlertService.swift */,
-				73F4F678241859BB00CE2D1A /* ContactViewController.swift */,
 				7333E02C2418165E00F6FB0C /* SceneDelegate.swift */,
-				7333E02E2418165E00F6FB0C /* ContactListViewController.swift */,
-				7333E0302418165E00F6FB0C /* Main.storyboard */,
 				7333E0332418165F00F6FB0C /* Assets.xcassets */,
-				7333E0352418165F00F6FB0C /* LaunchScreen.storyboard */,
 				7333E0382418165F00F6FB0C /* Info.plist */,
+			);
+			path = RealmProject;
+			sourceTree = "<group>";
+		};
+		736D035F246416990088A820 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				73F30F382418234700B2DC42 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		736D0360246416A40088A820 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7333E0302418165E00F6FB0C /* Main.storyboard */,
+				7333E0352418165F00F6FB0C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		736D0361246416AA0088A820 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73F4F678241859BB00CE2D1A /* ContactViewController.swift */,
+				7333E02E2418165E00F6FB0C /* ContactListViewController.swift */,
+				735C1E3924190F6500E6A9CA /* AlertService.swift */,
 				735C1E372418E56C00E6A9CA /* RealmService.swift */,
 				73FC54AE241A975000E2BCB3 /* DataManager.swift */,
 			);
-			path = RealmProject;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		8A49360A4B6A309F00E30860 /* Pods */ = {
